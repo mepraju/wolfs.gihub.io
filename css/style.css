@@ -243,13 +243,13 @@ body.boxed-wrapper {
 
 @media (max-width: 1440px) {
   .page-wrapper.boxed-wrapper {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   .page-wrapper.boxed-wrapper {
-    max-width: 95%;
+    max-width: 100%;
   }
 }
 
@@ -2184,7 +2184,7 @@ img.lazy-image.loaded {
 
 .banner-carousel .content-box h1 {
   display: block;
-  font-size: 140px;
+  font-size: 70px;
   line-height: 0.85em;
   color: #ffffff;
   font-weight: 600;
