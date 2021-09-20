@@ -958,6 +958,7 @@ img {
   z-index: 5;
 }
 
+
 .main-menu .navigation>li.dropdown:hover>ul {
   visibility: visible;
   opacity: 1;
@@ -10101,7 +10102,7 @@ img.lazy-image.loaded {
 
 .sidebar-page-container {
   position: relative;
-  padding: 120px 0px 90px;
+  padding: 120px 0px 0px;
 }
 
 .sidebar-page-container .content-side {
