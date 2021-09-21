@@ -596,7 +596,7 @@ img {
 .main-header .header-upper .logo-box {
   position: relative;
   float: left;
-  padding: 40px 0px;
+  padding: 40px 0px 1px;
   margin-right: 50px;
   z-index: 7;
 }
@@ -610,7 +610,7 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  max-height: 34px;
+  max-height: 50px;
   z-index: 1;
 }
 
@@ -737,7 +737,7 @@ img {
 .main-menu .navigation>li {
   position: relative;
   float: left;
-  padding: 30px 0px;
+  padding: 30px 0px 1px;
   margin-right: 40px;
   transition: all 300ms ease;
 }
@@ -3130,9 +3130,7 @@ img.lazy-image.loaded {
 .about-section .image-column .image-block img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+ 
   border-radius: 7px;
 }
 
@@ -3575,9 +3573,7 @@ img.lazy-image.loaded {
 .we-do-section .featured-block .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  
   border-radius: 7px;
 }
 
@@ -3902,17 +3898,18 @@ img.lazy-image.loaded {
   display: block;
   width: 100%;
   height: auto;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
   transition: all 300ms ease;
   border-radius: 7px;
 }
 
 .gallery-item .inner-box:hover .image img {
-  -webkit-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
 }
 
 .gallery-item .cap-box {
@@ -4346,9 +4343,7 @@ img.lazy-image.loaded {
 .trusted-section .featured-block-two .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  
   border-radius: 7px;
 }
 
@@ -4425,18 +4420,17 @@ img.lazy-image.loaded {
 .team-block .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
   transition: all 500ms ease;
   border-radius: 7px;
 }
 
 .team-block .inner-box:hover .image-box img {
-  -webkit-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-}
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);}
 
 .team-block .image-box .social-links {
   position: absolute;
@@ -5043,9 +5037,7 @@ img.lazy-image.loaded {
 .agency-section .featured-block-two .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  
   border-radius: 50%;
 }
 
@@ -5694,11 +5686,11 @@ img.lazy-image.loaded {
 
 .main-footer .logo-widget .logo {
   position: relative;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
 }
 
 .main-footer .logo-widget .logo img {
-  height: 34px;
+  height: 50px;
 }
 
 .main-footer .logo-widget .text {
@@ -6969,19 +6961,16 @@ img.lazy-image.loaded {
 .testi-block .info .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
   border-radius: 7px;
   transition: all 500ms ease;
 }
 
 .testi-block:hover .info .image img {
-  -webkit-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%);
+  
 }
 
 .testi-block .info .name {
@@ -8685,9 +8674,7 @@ img.lazy-image.loaded {
 .work-tabs .tabs-content .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  
   border-radius: 7px;
 }
 
@@ -10869,9 +10856,9 @@ img.lazy-image.loaded {
 .service-details .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
   border-radius: 7px;
   transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -10881,9 +10868,7 @@ img.lazy-image.loaded {
 }
 
 .service-details .image:hover img {
-  -webkit-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
+  
 }
 
 .service-details .main-image {
